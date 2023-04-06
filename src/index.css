@@ -12,11 +12,12 @@
 }
 body{
   margin:0px;
-  background-image: url('../images/bg.jpg');
+  background-image: url('../images/bg2.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
   background-attachment: fixed;
+  color: white;
 }
 .grid-container>div{
   padding: 2vh 10vh;
@@ -54,7 +55,7 @@ body{
   margin: 3% 5%;
 }
 .college-link{
-  color: black;
+  color: white;
 }
 .college-link:hover{
   color: blue;
@@ -79,7 +80,11 @@ body{
 .round{
   border-radius: 50%;
 }
-.skills-content{
+.skills-container{
   margin: 2% 2%;
   font-size: 150%;
+  font-size: 1.4em;
+}
+.skills-container>div{
+  padding: 1vh 0vh;
 }
