@@ -2,7 +2,7 @@ import '../index.css'
 import Img from './img'
 function Home() {
     return (
-        <div className='grid-container'>
+        <div className='grid-container home-page'>
             <div>
                 <div className='home-text1'>
                 Hi, this is Abhishek Epili! And this is my portfolio website.
