@@ -1,32 +1,9 @@
+* {
+  box-sizing: border-box;
+}
 .dp{
-  width: 100%;
+  width: 45%;
   border-radius: 50%;
-}
-.dp-container{
-  width: 40%;
-  margin-left: 10%;
-}
-.home-text-container,.dp-container{
-  height: 40%;
-}
-.grid-container{
-  display: grid;
-  grid-template-columns: auto auto;
-}
-body{
-  margin:0px;
-  background-image: url('/images/bg.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-}
-.home-text1{
-  font-size: 1.3em;
-}
-.home-text2{
-  font-size: 1em;
 }
 .home-btn{
   display: block;
@@ -43,14 +20,54 @@ body{
   color: white;
   background-color: darkred;
 }
+body{
+  margin:0px;
+  background-image: url('/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
 .resume-button:hover{
   background-color: grey;
   color: white;
 }
 .about-content{
-  font-size: 1.1em;
+  font-size: 0.75em;
+}
+
+.social-img{
+  margin-left: 6%;
+  width: 5%;
+}
+.skills-text{
+  padding: 0.5vh 0vh;
+}
+@media only screen and (min-width: 768px) {
+
+.dp-container{
+  width: 80%;
+  margin-left: 10%;
+}
+.home-text-container,.dp-container{
+  height: 40%;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.home-text1{
+  font-size: 1.3em;
+}
+.home-text2{
+  font-size: 1em;
+}
+.about-content{
+  font-size: 1em;
   font-weight: 400;
 }
+
 .education-content{
   font-size: 125%;
   margin: 3% 5%;
@@ -65,7 +82,7 @@ body{
   margin: 0% 5%;
 }
 .gif{
-  height: 50%;
+  width: 50%;
 }
 .contact-details{
   width: 100%;
@@ -74,10 +91,6 @@ body{
 }
 .social-links{
   width: 100%;
-}
-.social-img{
-  margin-left: 6%;
-  width: 5%;
 }
 .round{
   border-radius: 50%;
@@ -89,4 +102,5 @@ body{
 }
 .skills-container>div{
   padding: 1vh 0vh;
+}
 }
