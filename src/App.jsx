@@ -9,8 +9,9 @@ import Contact from './components/contact'
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar/>
+      <div style={{margin: "3vh 3vh", height:"87vh"}}>
       <Routes>
         <Route exact path="/about_me" element={<About/>}/>
         <Route exact path="/contact" element={<Contact/>}/>
@@ -18,7 +19,8 @@ function App() {
         <Route exact path="/education" element={<Education/>}/>
         <Route index path="/" element={<Home/>}/>
       </Routes>
-    </>
+      </div>
+    </div>
   )
 
 }

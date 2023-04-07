@@ -13,11 +13,8 @@ function About() {
                 I have worked with .NET Framework, too.<br />
                 Currently, I am looking for internships in Web and Java Development.
                 </div>
-            
-            <div>
-                <Img />
-            </div>
-            <div style={{gridColumnStart: "1", gridColumnEnd: "3"}}>
+            <Img />
+            <div style={{gridColumnStart: "1", gridColumnEnd: "2"}}>
                 
                 <br /> 
                 <h3>Languages I Speak</h3>

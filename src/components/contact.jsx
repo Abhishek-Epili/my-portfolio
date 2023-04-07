@@ -7,19 +7,19 @@ function Contact() {
             <div className="contact-details" style={{ fontSize: "100%" }}>
                 <h2>Connect Me</h2>
                 <br />
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrkWHvmFWhRnTrMJPswZRnHfSRrrLfwfhbCGtCGwFQxTklntJKvmWPvnfgvqmhdzRwMkGq" target="_blank"  ><img src="./images/gmail.png" className="social-img" height="40" /></a>&nbsp;&nbsp;&nbsp; epiliabhishek@gmail.com
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrkWHvmFWhRnTrMJPswZRnHfSRrrLfwfhbCGtCGwFQxTklntJKvmWPvnfgvqmhdzRwMkGq" target="_blank"  ><img src="./images/gmail.png" className="social-img"/></a>&nbsp;&nbsp;&nbsp; epiliabhishek@gmail.com
                 <br /><br />
-                <a href="https://web.whatsapp.com/" target="_blank" ><img src="./images/whatsapp.png" height="60" className="social-img round" /></a>&nbsp;&nbsp;&nbsp;+91 9082419895
+                <a href="https://web.whatsapp.com/" target="_blank" ><img src="./images/whatsapp.png" className="social-img round" /></a>&nbsp;&nbsp;&nbsp;+91 9082419895
             </div>
-            <div>
+            <div style={{width: "100%"}}>
                 <img className="gif" src="./images/hello.gif" />
-            </div>
+                </div>
             <div className="social-links" style={{gridColumnStart: 1,gridColumnEnd: 3}}>
                 <h2>Social Links</h2><br/>
-                <a href="https://github.com/Abhishek-Epili/" target="_blank" ><img src="./images/github.png" height="60" className="social-img round" /></a>
-                <a href="https://www.facebook.com/abhishek.epili" target="_blank" ><img src="./images/fb.jpg" height="60" className="social-img round" /></a>
-                <a href="https://www.linkedin.com/in/abhishek-epili/" target="_blank" ><img src="./images/linkedin.png" height="60" className="social-img" /></a>
-                <a href="https://www.instagram.com/abhishekepili/" target="_blank" ><img src="./images/insta.jpg" height="60" className="social-img round" /></a>
+                <a href="https://github.com/Abhishek-Epili/" target="_blank" ><img src="./images/github.png"  className="social-img round" /></a>
+                <a href="https://www.facebook.com/abhishek.epili" target="_blank" ><img src="./images/fb.jpg"  className="social-img round" /></a>
+                <a href="https://www.linkedin.com/in/abhishek-epili/" target="_blank" ><img src="./images/linkedin.png"  className="social-img" /></a>
+                <a href="https://www.instagram.com/abhishekepili/" target="_blank" ><img src="./images/insta.jpg"  className="social-img round" /></a>
                 <br/><br/>
                 
             </div>

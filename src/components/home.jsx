@@ -2,8 +2,9 @@ import '../index.css'
 import Img from './img'
 function Home() {
     return (
-        <div className='grid-container home-page'>
-            <div>
+        <div className='home-page'>
+            <div className='grid-container'>
+            <div className='home-text-container'>
                 <div className='home-text1'>
                 Hi, this is Abhishek Epili! And this is my portfolio website.
                 </div><br/>
@@ -11,11 +12,13 @@ function Home() {
                     I am a Student who is passionate for full stack development.
                 </div>
             </div>
-            <div>
+            <div style={{width: "80%"}}>
                 <Img />
             </div>
             <div className='home-btn'>
+                <br/>
                 <a href='../Abhishek Epili.pdf' download><button className='resume-button'>Download Resume</button></a>
+            </div>
             </div>
         </div>
     )
