@@ -12,9 +12,7 @@ function Home() {
                     I am a Student who is passionate for full stack development.
                 </div>
             </div>
-            <div style={{width: "80%"}}>
                 <Img />
-            </div>
             <div className='home-btn'>
                 <br/>
                 <a href='../Abhishek Epili.pdf' download><button className='resume-button'>Download Resume</button></a>

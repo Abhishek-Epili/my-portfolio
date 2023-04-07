@@ -11,7 +11,7 @@ function Contact() {
                 <br /><br />
                 <a href="https://web.whatsapp.com/" target="_blank" ><img src="/images/whatsapp.png" height="40" className="social-img round" /></a>&nbsp;&nbsp;&nbsp;+91 9082419895
             </div>
-            <div style={{width: "100%"}}>
+            <div className="gif-container">
                 <img className="gif" src="/images/hello.gif" />
                 </div>
             <div className="social-links" style={{gridColumnStart: 1,gridColumnEnd: 3}}>
