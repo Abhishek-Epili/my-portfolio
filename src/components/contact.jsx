@@ -5,7 +5,7 @@ function Contact() {
 
 
             <div className="contact-details" style={{ fontSize: "100%" }}>
-                <h2>Connect Me</h2>
+                <h2>Contact Me</h2>
                 <br />
                 <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrkWHvmFWhRnTrMJPswZRnHfSRrrLfwfhbCGtCGwFQxTklntJKvmWPvnfgvqmhdzRwMkGq" target="_blank"  ><img src="./images/gmail.png" className="social-img"/></a>&nbsp;&nbsp;&nbsp; epiliabhishek@gmail.com
                 <br /><br />
