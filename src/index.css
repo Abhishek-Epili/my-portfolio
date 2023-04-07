@@ -36,10 +36,11 @@ body{
 .about-content{
   font-size: 0.75em;
 }
-
+.grid-container>div{
+  padding: 1vh 1vh;
+}
 .social-img{
   margin-left: 6%;
-  width: 5%;
 }
 .skills-text{
   padding: 0.5vh 0vh;
