@@ -40,6 +40,9 @@ body{
   background-attachment: fixed;
   color: white;
 }
+.round{
+  border-radius: 50%;
+}
 .resume-button:hover{
   background-color: grey;
   color: white;
@@ -109,9 +112,7 @@ body{
 .social-links{
   width: 100%;
 }
-.round{
-  border-radius: 50%;
-}
+
 .skills-container{
   margin: 2% 2%;
   font-size: 150%;
