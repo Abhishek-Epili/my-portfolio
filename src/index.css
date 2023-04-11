@@ -53,6 +53,19 @@ body{
 .grid-container>div{
   padding: 1vh 1vh;
 }
+.mail-btn{
+  border: none;
+  width: 50%;
+  height: 10%;
+  border-radius: 20px;
+  background-color: darkblue;
+  color: white;
+  margin-left: 5%;
+}
+.mail-btn:hover{
+  background-color: lightblue;
+  color: black;
+}
 .social-img{
   margin-left: 6%;
 }
@@ -71,6 +84,10 @@ body{
 }
 .home-text-container,.dp-container{
   height: 40%;
+}
+.mail-btn{
+  width: 25%;
+  height: 20%;
 }
 .grid-container{
   display: grid;

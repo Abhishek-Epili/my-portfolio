@@ -7,7 +7,8 @@ function Contact() {
             <div className="contact-details" style={{ fontSize: "100%" }}>
                 <h2>Contact Me</h2>
                 <br />
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrkWHvmFWhRnTrMJPswZRnHfSRrrLfwfhbCGtCGwFQxTklntJKvmWPvnfgvqmhdzRwMkGq" target="_blank"  ><img src="/images/gmail.png" height="30" className="social-img"/></a>&nbsp;&nbsp;&nbsp; epiliabhishek@gmail.com
+                <img src="/images/gmail.png" height="30" className="social-img"/>&nbsp;&nbsp;&nbsp; epiliabhishek@gmail.com<br/><br />
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrkWHvmFWhRnTrMJPswZRnHfSRrrLfwfhbCGtCGwFQxTklntJKvmWPvnfgvqmhdzRwMkGq" target="_blank"  ><button className="mail-btn">Wanna mail me? Click Here</button></a>
                 <br /><br />
                 <a href="https://web.whatsapp.com/" target="_blank" ><img src="/images/whatsapp.png" height="40" className="social-img round" /></a>&nbsp;&nbsp;&nbsp;+91 9082419895
             </div>
