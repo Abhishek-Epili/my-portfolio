@@ -15,7 +15,7 @@ function Home() {
                 <Img />
             <div className='home-btn'>
                 <br/>
-                <a href='../Abhishek Epili.pdf' download><button className='resume-button'>Download Resume</button></a>
+                <a href='../Abhishek Epili Resume.pdf' download><button className='resume-button'>Download Resume</button></a>
             </div>
             </div>
         </div>
