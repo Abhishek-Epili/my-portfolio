@@ -3,7 +3,7 @@ import Project from "./projects"
 function Education() {
     return (
         <>
-            <div className="education-content">
+            <div id="eduction-section" className="education-content">
                 <h3>Education</h3>
                 Currently, I am Student pursuing the course Bsc Computer Science in <a href="https://www.ruiacollege.edu/" className="college-link" target="_blank">Ramnarain Ruia College</a> in Second Year.
             </div>

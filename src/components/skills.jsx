@@ -2,7 +2,7 @@ import ProgressBar from "./progressbar"
 function Skills() {
     return (
         <>
-            <div className="skills-container">
+            <div id="skills-section" className="skills-container">
                 <center><h2>My Skills</h2></center>
                 <div >
                     <div className="skills-text">

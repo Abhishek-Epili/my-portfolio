@@ -2,7 +2,7 @@ import Img from "./img"
 
 function About() {
     return (
-        <div className="about-content">
+        <div id="about-section" className="about-content">
         <div className="grid-container">
            
                 <div>

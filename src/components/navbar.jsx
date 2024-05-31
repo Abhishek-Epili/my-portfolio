@@ -1,15 +1,45 @@
+import { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 import './navbar.css'
-function Navbar() {
+
+const Navbar = () => {
+  const [showNavbar, setShowNavbar] = useState(false)
+
+  const handleShowNavbar = () => {
+    setShowNavbar(!showNavbar)
+  }
+
   return (
-    <>
-      <nav>
-            <a className="home_hype" href="/">Home</a>       
-            <a className="home_hype" href="/about_me">About Me</a>  
-            <a className="home_hype" href="/education" style={{width: "30vh"}}>Education & Projects</a>    
-            <a className="home_hype" href="/contact" >Contact Me</a>
-            <a className="home_hype" href="/skills" >Skills</a> 
-        </nav>
-    </>
+    <nav className="navbar">
+      <div className="container">
+      <div className="name">
+          Abhishek Epili
+        </div>
+        <div className="menu-icon" onClick={handleShowNavbar}>
+          <img style={{width: "2em"}} src='/images/hamburger.png'/>
+        </div>
+        <div className={`nav-elements  ${showNavbar && 'active'}`}>
+          <ul>
+            <li>
+              <NavLink to="/" onClick={handleShowNavbar}>Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/about_me" onClick={handleShowNavbar}>About Me</NavLink>
+            </li>
+            <li>
+              <NavLink to="/education" onClick={handleShowNavbar}>Education & Projects</NavLink>
+            </li>
+            <li>
+              <NavLink to="/skills" onClick={handleShowNavbar}>Skills</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact" onClick={handleShowNavbar}>Contact Me</NavLink>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   )
 }
+
 export default Navbar

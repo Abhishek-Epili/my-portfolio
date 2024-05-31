@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <div style={{margin: "3vh 3vh", height:"85vh"}}>
+      <div style={{margin: "3vh 3vh"}}>
       <Routes>
         <Route exact path="/about_me" element={<About/>}/>
         <Route exact path="/contact" element={<Contact/>}/>
