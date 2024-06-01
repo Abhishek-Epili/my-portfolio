@@ -13,8 +13,19 @@ function Education() {
                 <div className="row">
                     <div className="col">
                         <Project
-                            title="Transport Company Project"t
-                            text = "A project which has two user interfaces, one for visitor and other for admin where visitor can book tickets and admin can see details of all tickets booked."
+                            title="Fake Review Detection"
+                            text="This app automatically detects fake or suspicious reviews submitted by users on a web
+                        platform.  The app integrates with the platform's APIs to
+                        provide real-time feedback to users and offers an intuitive admin interface for efficient
+                        review management."
+                            tech1="MERN Stack"
+                            link="https://github.com/Abhishek-Epili/eTechHub"
+                        />
+                    </div>
+                    <div className="col">
+                        <Project
+                            title="Transport Company Project" t
+                            text="A project which has two user interfaces, one for visitor and other for admin where visitor can book tickets and admin can see details of all tickets booked."
                             tech1="Front-End: HTML, CSS, Javascript"
                             tech2="Back-End: Servlet"
                             link="https://github.com/Abhishek-Epili/Transport-Company-Project"
@@ -23,23 +34,24 @@ function Education() {
                     <div className="col">
                         <Project
                             title="Blood Bank Project"
-                            text = "A web application for blood bank having two user interfaces, one for hospital and other for visitor where visitor can request blood sample from a hospital and hospital can see all requests to them."
+                            text="A web application for blood bank having two user interfaces, one for hospital and other for visitor where visitor can request blood sample from a hospital and hospital can see all requests to them."
                             tech1="Front-End: HTML, CSS, Javascript"
                             tech2="Back-End: PHP, MySQL"
                             link="https://github.com/Abhishek-Epili/blood_bank_project"
                         />
                     </div>
+
+                </div>
+
+                <div className="row">
                     <div className="col">
                         <Project
                             title="Quiz"
-                            text = "A java swing application where user can login and play a quiz of 10 questions where it will show the score of correct answer to user and insert it in database."
+                            text="A java swing application where user can login and play a quiz of 10 questions where it will show the score of correct answer to user and insert it in database."
                             tech1="Java Swing"
                             link="https://github.com/Abhishek-Epili/online-quiz"
                         />
                     </div>
-                </div>
-                <br/>
-                <div className="row">
                     <div className="col">
                         <Project
                             title="Tours & Guides Project"
@@ -56,6 +68,9 @@ function Education() {
                             link="https://github.com/Abhishek-Epili/Bus-Ticket-Booking-Project"
                         />
                     </div>
+
+                </div>
+                <div className="row">
                     <div className="col">
                         <Project
                             title="Covid Precautions Animation Clip"
@@ -64,10 +79,9 @@ function Education() {
                             link="https://github.com/Abhishek-Epili/animation-clip-using-python"
                         />
                     </div>
-
                 </div>
             </div>
-            <br/>
+            <br />
         </>
     )
 }

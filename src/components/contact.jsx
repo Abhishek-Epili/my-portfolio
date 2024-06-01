@@ -1,7 +1,8 @@
 
 function Contact() {
     return (
-        <><center><h2>Contact Me</h2></center>
+        <><center><h2>Contact Me</h2>
+        </center>
         <div id="contact-section" className="contact-container">
             <div className="contact-details">
                 
@@ -27,7 +28,7 @@ function Contact() {
                 <br/><br/>
                 
             </div>
-            <div style={{gridColumnStart: 1,gridColumnEnd: 3}}>
+            <div className="feedback-text" style={{gridColumnStart: 1,gridColumnEnd: 3}}>
             <h3 >Make sure to give a feedback about my portfolio!</h3>
             </div>
         </div>

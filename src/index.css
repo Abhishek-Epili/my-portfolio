@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .dp{
-  width: 50%;
+  width: 60%;
   border-radius: 50%;
 }
 .dp-container{
@@ -21,7 +21,7 @@
   width: 14em;
   height:5em;
   border: none;
-  border-radius: 20px;
+  border-radius: 70px;
   color: white;
   background-color: darkred;
 }
@@ -29,9 +29,15 @@
   width: 80%;
   border-radius: 20px;
 }
+.college-link{
+  color: blue;
+}
+.college-link:hover{
+  color: red;
+}
 body{
   margin:0px;
-  background-color: rgb(84, 93, 75);
+  background-color: rgb(188, 201, 175);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -46,7 +52,7 @@ body{
   color: white;
 }
 .about-content{
-  font-size: 0.75em;
+  font-size: 0.9em;
 }
 .contact-details{
   text-align: center;
@@ -64,6 +70,7 @@ body{
   background-color: lightblue;
   color: black;
 }
+
 .social-img{
   
   width: 12%;
@@ -84,16 +91,47 @@ body{
 .contact-container{
   display: block;
 }
-
+.home-text1,.home-text2{
+  font-size: 2em;
+}
+@media only screen and (max-width: 768px) {
+.home-btn{
+  margin-top: 20%;
+}
+.home-text1,.home-text2{
+  font-size: 1.6em;
+}
+.home-container{
+  margin-top: 10%;
+}
+.home-text1,.home-text2{
+  text-align: center;
+}
+.feedback-text{
+  text-align: center;
+}
+}
 
 @media only screen and (min-width: 768px) {
+.row{
+  margin-top: 10px;
+}
 .grid-container{
     display: grid;
     grid-template-columns: auto auto;
+    
+}
+.home-container{
+  margin-top: 12%;
+}
+.resume-button{
+  font-size: 1.5em;
+  width: 15em;
+  height:5em;
 }
 .contact-container{
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 60% auto;
 }
 .contact-details{
   text-align: left;
@@ -124,14 +162,9 @@ body{
 .home-page{
   margin: 10vh 10vh;
 }
-.home-text1{
-  font-size: 1.3em;
-}
-.home-text2{
-  font-size: 1em;
-}
+
 .about-content{
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: 400;
 }
 
@@ -139,17 +172,12 @@ body{
   font-size: 125%;
   margin: 3% 5%;
 }
-.college-link{
-  color: white;
-}
-.college-link:hover{
-  color: blue;
-}
+
 .projects-content{
   margin: 0% 5%;
 }
 .gif{
-  width: 100%;
+  width: 60%;
   height: auto;
 }
 .contact-details{
@@ -163,7 +191,7 @@ body{
 }
 
 .skills-container{
-  margin: 2% 2%;
+  margin: 2% 10%;
   font-size: 150%;
   font-size: 1.4em;
 }
@@ -171,7 +199,7 @@ body{
   padding: 1vh 0vh;
 }
 .progressbar{
-  width: 50%;
+  width: 90%;
 }
 .contact-details,.social-links{
   width: 100%; 

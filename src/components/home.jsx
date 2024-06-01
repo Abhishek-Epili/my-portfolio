@@ -13,12 +13,12 @@ function Home() {
             <div className='home-text-container'>
                 <div className='home-text1'>
                 Hi, this is Abhishek Epili! And this is my portfolio website.
-                </div><br/>
+                </div><br/><br/><br/>
                 <div className="home-text2">
                     I am a Student who is passionate for full stack development.
                 </div>
             </div>
-            <div className='home-btn'><a href='../Abhishek Epili Resume.pdf' download><button className='resume-button'>Download My Resume!!</button></a></div>
+            <div className='home-btn'><a href='../Abhishek Epili Resume.pdf' download><button className='resume-button'>Download My Resume!</button></a></div>
             </div>
             
         </div>
